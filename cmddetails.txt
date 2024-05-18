@@ -1,0 +1,6 @@
+ollama run llama2 - to download open source model
+create model file by mentioning the parameter temperature and system prompt
+right click on modelfile and click on 'copy path' to select the path 
+in cmd - cd <space> paste the copied path and enter
+in cmd next line paste -  ollama create IPLKING -f modelfile
+in cmd - ollama run IPLKING enter
